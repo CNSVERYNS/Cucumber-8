@@ -1,0 +1,59 @@
+
+	# BDD:
+
+	It stands for Behaviour-driven Development, which is a framework type makes the collaboration and understanding easier for non-technical members of the team
+
+	# Gherkin:
+
+	Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Each keyword is translated to many spoken languages; in this reference we're using English
+
+	Gherkin is a syntax that is helping us to create test cases in details with step-by-step using Given, When, Then, And keywords. It's useful because its much easiert to understand, and read.
+
+
+	# Framework:
+
+	A framework in software is lika toolkit for building apps or websites, or automation. It gives you a bunch of tools and set of rules for how to use them. This way, you don't have to start from scratch everytime you want to create something new, you can use whats in the toolkit. It helps make the building process faster and ensures that what you build is strong and works well.
+
+	- Language - JS
+	- Testin tool - Cypress
+	- eslint - for linting
+	- nodejs ( npm ) - for building the framework
+	- vscode - our ide
+	- package.json
+	- cypress.config
+	- github
+	- CI/CD - Jenkins
+	- POM
+	- custom commands
+	- fixtures
+	- env
+	- reports - (mochawesome)
+	- grep - test grouping
+
+	# Cucumber:
+
+	Its a BDD tool helping us to implement Test Cases written by Gherkin syntax to implement in our framework as documentation, and assign them to each automation script. It acts as a bridge between our test cases, and automation scripts.
+
+	 - Cucumber Components
+
+	 	* Feature files
+	 	* step definitions
+	 	* runner file
+
+	 NOTE: In Cypress integration with Cucumber, we don't use or need a runner file to run our tests. Because, we don't use Cucumber as a main runner with Cypress. Since Cypress only runs in the browser, it can't work well with the other runs so it's forcing us to use its own runner. That is why, we don't use the cucumber itself as a tool, instead we use cucumber pre-processor.
+
+	 Feature File:
+
+	 Feature is a file type helping us to implement our test cases written in Gherkin Syntax.
+
+	 Step Definitions:
+
+	 This is where we hold our automation script. It's implemented by each step we have inside the feature file, as an automation version of each step.
+
+	 Feature:
+
+	 High-level description of test cases we have inside the feature file.
+
+	 Scenario:
+
+	 Description of the test case.
